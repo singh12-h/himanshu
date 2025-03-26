@@ -88,8 +88,8 @@ def home():
                 <th style="width: 15%;">Username</th>
                 <th style="width: 15%;">App ID</th>
                 <th style="width: 30%;">License Key</th>
-                <th style="width: 10%;">Price</th>
                 <th style="width: 10%;">License Status</th> <!-- License Status Column -->
+                <th style="width: 10%;">Price</th>
                 <th style="width: 10%;">Actions</th>
                 <th style="width: 10%;">Delete</th>
             </tr>
