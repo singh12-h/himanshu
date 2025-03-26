@@ -20,8 +20,8 @@ def init_db():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         username TEXT NOT NULL,
         app_id TEXT NOT NULL,
+         license_key TEXT NOT NULL,
         expiry_time TEXT NOT NULL,   -- Stores expiration date (YYYY-MM-DD HH:MM:SS)
-        license_key TEXT NOT NULL,
         price INTEGER DEFAULT 0, -- Price column
         license_status TEXT DEFAULT 'active' -- New Column to track license status
     )''')
