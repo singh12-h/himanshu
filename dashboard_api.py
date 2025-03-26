@@ -108,6 +108,7 @@ def home():
                     <td style="width: 30%;">{{ user[3] }}</td>
                     <td style="width: 10%;">{{ user[4] }}</td>
                     <td style="width: 10%;">{{ user[5] }}</td> <!-- Displaying License Status -->
+                    <td style="width: 10%;">{{ user[6] }}</td>
                     <td style="width: 10%;">
                         <form action="/regenerate_license" method="POST">
                             <input type="hidden" name="username" value="{{ user[1] }}">
