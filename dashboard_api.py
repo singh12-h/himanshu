@@ -57,7 +57,7 @@ def home():
     conn.close()
 
     return render_template_string('''
-    <h1>License Management by Himanshu singh</h1>
+    <h1>License Management Dashboard</h1>
 
     <!-- Search Bar -->
 <form id="searchForm" action="/" method="GET">
